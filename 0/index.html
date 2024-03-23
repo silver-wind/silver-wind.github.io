@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Training projects:</title>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&family=Pixelify+Sans:wght@400..700&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /*font-family: "Margarine", sans-serif;*/
+            font-family: "Pixelify Sans", sans-serif;
+        }
+        body{
+            /*background-color: #497070;*/
+            /*background-color: #6a9f9f;*/
+            background-color: rgba(242, 242, 242, 0.99);
+            /*background-color: rgba(64, 98, 98, 0.7);*/
+        }
+        .head-container{
+            /*z-index: 1;*/
+            background-color: rgba(212, 212, 212, 0.9);
+            /*background-color: #365252;*/
+            /*background-color: #edf2ed;*/
+            /*background-color: #e8e8e8;*/
+            width: 100%;
+            display: inline-flex;
+            justify-content: space-between;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+
+        .head-container-title{
+            color: cornflowerblue;
+            margin-left: 30px;
+            margin-top: 10px;
+            font-size: 36px;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .head-container-avatar{
+            height: 75px;
+            border-radius: 40px;
+            margin-right: 30px;
+        }
+
+        .projects-title{
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+
+            font-size: 32px;
+            font-weight: 100;
+            font-style: normal;
+
+        }
+        .project-image{
+            width: 52%;
+        }
+
+        .projects-container{
+            /*background-color: rgba(64, 98, 98, 0.3);*/
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 25px 0;
+        }
+
+        .projects-container *{
+            margin: 5px 0;
+
+            font-size: 36px;
+            font-family: "Sofia Sans Condensed", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+
+        }
+        .btn{
+            /*height:45px;*/
+            padding: 10px 25px;
+            border: 0;
+            cursor:pointer;
+            /*background-color: greenyellow;*/
+            background-color: rgba(173, 255, 47, 0.8);
+            color:black;
+
+        }
+        .btn:hover{
+            background-color: rgba(173, 255, 47, 1);
+            font-weight: 500;
+        }
+
+        .rubik-microbe-regular {
+            font-family: "Rubik Microbe", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+            color:red;
+        }
+
+        .background {
+            z-index: -1;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;
+        }
+        .prev-color{
+            /*background-color: rgba(64, 98, 98, 0.7);*/
+            background-color: rgba(225, 225, 225, 0.85);
+            /*background-color: rgba(242, 242, 242, 0.85);*/
+        }
+        .next-color{
+            background-color: rgba(225, 242, 225, 0.85);
+            /*background-color: rgba(225, 242, 225, 0.85);*/
+            /*background-color: rgba(50, 98, 84, 0.7);*/
+            /*background-color: rgba(55, 98, 90, 0.75);*/
+            /*background-color: rgba(64, 98, 98, 0.9);orig*/
+
+        }
+
+
+    </style>
+</head>
+<body>
+<img src="assets/images/b7.jpg" class="background"/>
+<div class="head-container">
+    <h2 id='head_title' class="head-container-title">< silver-wind personal git page: > < / >>_</h2>
+    <img class="head-container-avatar" src="https://avatars.githubusercontent.com/u/162185140?v=4"/>
+</div>
+
+
+
+<div class="projects-container prev-color">
+    <h2 id="project_title " class="projects-title">_My_Projects_</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 >Фронт-енд для социальной сети SamuraiJs:</h3>
+    <img CLASS="project-image" src="assets/images/soc-network.png">
+    <h3 >Описание проекта:</h3>
+    <div  >Выполненное тестовое задание на Vue;</div>
+    <input class="btn" type = "button" value = "посмотреть проект" onclick="openProject('projects/test.0.page/index.html')">
+</div>
+
+<div class="projects-container next-color">
+    <h3 >Фронт-енд для социальной сети SamuraiJs:</h3>
+    <img CLASS="project-image" src="assets/images/test.png">
+    <h3 >Описание проекта:</h3>
+    <div  >Выполненное тестовое задание на Vue;</div>
+    <input class="btn" type = "button" value = "посмотреть проект" onclick="openProject('projects/test.0.page/index.html')">
+</div>
+
+<div class="projects-container prev-color">
+    <h3 >Фронт-енд для социальной сети SamuraiJs:</h3>
+    <img CLASS="project-image" src="assets/images/soc-network.png">
+    <h3 >Описание проекта:</h3>
+    <div  >Выполненное тестовое задание на Vue;</div>
+    <input class="btn" type = "button" value = "посмотреть проект" onclick="openProject('projects/test.0.page/index.html')">
+</div>
+
+<div class="projects-container next-color">
+    <h3 >Фронт-енд для социальной сети SamuraiJs:</h3>
+    <img CLASS="project-image" src="assets/images/test.png">
+    <h3 >Описание проекта:</h3>
+    <div  >Выполненное тестовое задание на Vue;</div>
+    <input class="btn" type = "button" value = "посмотреть проект" onclick="openProject('projects/test.0.page/index.html')">
+</div>
+
+
+
+
+
+
+<br>
+
+<script type="text/javascript">
+    const openProject = (project) =>window.location=project;
+
+    const head_title = document.getElementById('head_title');
+    setInterval(()=>{
+        if(head_title.innerText === '< silver-wind personal git page: > < / >>_'){
+            head_title.innerText = '< silver-wind personal git page: > < / >>'
+        } else{
+            head_title.innerText = '< silver-wind personal git page: > < / >>_'
+        }
+
+    }, 1000)
+
+</script>
+</body>
+</html>
