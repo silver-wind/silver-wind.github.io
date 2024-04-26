@@ -1,0 +1,478 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.gjs-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.gjs-cell {
+    min-height: 75px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+#iof1p {
+    flex-basis: 25%;
+    height: 100%;
+}
+
+.project-container {
+    height: 100%;
+    margin: 0px 3% 2% 6%;
+    box-shadow: 0px 0px 5px 0px #a89a9a;
+}
+
+.project-row {
+    height: 100%;
+}
+
+.project-image-col {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-image {
+    color: black;
+    width: 95%;
+    margin: 0px 0px 0px 0px;
+}
+
+.project-text-col {
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-text-title {
+    padding: 10px;
+    text-align: center;
+    position: static;
+    margin: 5% 0px 0px 0px;
+    font-size: 1.4em;
+}
+
+.project-text-text {
+    padding: 10px;
+    text-align: justify;
+    position: static;
+    font-size: 1.14em;
+    line-height: 1.8em;
+    text-decoration: none;
+}
+
+.project-text-demo {
+    padding: 10px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#ij9uhu {
+    flex-basis: 25%;
+    height: 100%;
+}
+
+.project-container.left {
+    margin: 0px 6% 2% 3%;
+}
+
+.project-row.reverse {
+    flex-direction: row-reverse;
+}
+
+#ixlsg {
+    flex-basis: 25%;
+    height: 100%;
+}
+
+#ibsefn {
+    flex-basis: 25%;
+    height: 100%;
+}
+
+.header-title-text {
+    padding: 10px;
+    font-size: 2.4em;
+    font-family: serif;
+    float: none;
+    margin: 0px 0px 0px 21%;
+    height: 100%;
+}
+
+.header-contacts {
+    padding: 10px;
+    display: inline-block;
+    float: right;
+    font-size: 1.5em;
+    text-decoration: underline;
+    height: 100%;
+    line-height: 2em;
+}
+
+.header-about {
+    padding: 10px;
+    display: inline-block;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    height: 100%;
+    line-height: 2em;
+}
+
+.about-text {
+    padding: 10px 0% 10px 10px;
+    font-size: 1.4em;
+    margin: 0px 0% 0px 0.5%;
+    line-height: 2.25em;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+.info-text {
+    padding: 10px 10px 10px 10px;
+    font-size: 1.33em;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.footer-text {
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.social-1 {
+    color: black;
+    /*width: 25px;*/
+    /*height: 25px;*/
+    margin: 0px 3% 0px 0px;
+    font-size: 1.5em;
+}
+
+.social-2 {
+    color: black;
+    /*width: 25px;*/
+    /*height: 25px;*/
+    margin: 0px 3% 0px 0px;
+    font-size: 1.5em;
+}
+
+.social-3 {
+    color: black;
+    /*width: 25px;*/
+    /*height: 25px;*/
+    margin: 0px 3% 0px 0px;
+    font-size: 1.5em;
+}
+
+.project-text-col-2 {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 0px 0px 0px;
+}
+
+.header-container {
+    margin: 3% 0px 4% 0px;
+}
+
+.header-menu {
+    padding: 0px 10% 0px 0px;
+}
+
+#iqt459 {
+    display: flex;
+}
+
+.about-container {
+    margin: 5% 0px 0px 0px;
+    padding: 10px 4% 10px 6%;
+}
+
+.about-decoration {
+    height: 100%;
+    box-shadow: 0 0 25px 0 black inset;
+    padding: 0px 2px 0px 0px;
+}
+
+.info-card {
+    width: 500px;
+    height: 250px;
+    box-shadow: 0 0 5px 0 black;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5% 0 0;
+}
+
+.info-row {
+    justify-content: center;
+    display: flex;
+}
+
+.footer-container {
+    padding: 5% 10px 3.8% 10px;
+}
+
+.body {
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+    background-image: linear-gradient(#dfdfdf 0%, #dfdfdf 100%);
+}
+
+@media (max-width: 992px) {
+    .project-container {
+        height: 50%;
+        margin: 0px 4% 2% 4%;
+        align-items: stretch;
+        flex-direction: column;
+        box-shadow: 0 0 5px 0 black;
+    }
+
+    .project-row {
+        flex-direction: column;
+    }
+
+    .project-image-col {
+        flex-basis: 60%;
+    }
+
+    .project-image {
+        margin: 0% 0px 0px 0px;
+        width: 100%;
+    }
+
+    .project-text-title {
+        font-size: 1.9em;
+    }
+
+    .project-text-text {
+        font-size: 1.4em;
+        text-decoration: none;
+        line-height: 1.55em;
+    }
+
+    .project-text-demo {
+        font-size: 1.43em;
+    }
+
+    .project-container.left {
+        height: 50%;
+        margin: 0px 4% 2% 4%;
+        align-items: stretch;
+        flex-direction: column;
+        box-shadow: 0 0 5px 0 black;
+    }
+
+    .project-row.reverse {
+        flex-direction: column;
+    }
+
+    .header-menu {
+        justify-content: center;
+        display: flex;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .header-about {
+        margin: 0px 0 0px 0px;
+        text-align: center;
+    }
+
+    .header-contacts {
+        margin: 0px 2% 0px 0px;
+        text-align: center;
+    }
+
+    .header-title-text {
+        text-align: center;
+        float: none;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .about-text {
+        font-size: 1.45em;
+        line-height: 1.75em;
+        margin: 0px 0% 0px 4%;
+    }
+
+    .info-text {
+        font-size: 1.44em;
+        text-align: center;
+    }
+
+    .project-text-col-2 {
+        padding: 0% 0px 0px 0px;
+    }
+
+    .footer-text {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .social-1 {
+        /*width: 30px;*/
+        /*height: 30px;*/
+        font-size: 1.5em;
+    }
+
+    .social-2 {
+        /*width: 30px;*/
+        /*height: 30px;*/
+        font-size: 1.5em;
+    }
+
+    .social-3 {
+        /*width: 30px;*/
+        /*height: 30px;*/
+        font-size: 1.5em;
+    }
+
+    #ij2rpo {
+        display: none;
+    }
+
+    #i5whte {
+        padding: 10px 4% 10px 4%;
+    }
+
+    #idps08 {
+        display: none;
+    }
+
+    .info-card {
+        margin: 0px 0% 0px 0px;
+        width: 67%;
+    }
+}
+
+@media (max-width: 768px) {
+    .gjs-row {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-title-text {
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .header-menu {
+        justify-content: center;
+        position: relative;
+        display: flex;
+        /*fix*/
+        /*flex-direction: column-reverse;*/
+        flex-direction: row;
+    }
+
+    .header-contacts {
+        /*fix*/
+        /*width: 90%;*/
+        margin: 0 5% 0 0;
+        text-align: center;
+    }
+
+    .project-container {
+        flex-direction: column;
+        box-shadow: 0 0 5px 0 black;
+        margin: 0px 4% 6% 4%;
+    }
+
+    .project-text-title {
+        font-size: 1.4em;
+    }
+
+    .project-text-text {
+        font-size: 1.2em;
+        line-height: 1.67em;
+    }
+
+    .project-text-demo {
+        font-size: 1.2em;
+    }
+
+    .project-container.left {
+        flex-direction: column;
+        box-shadow: 0 0 5px 0 black;
+        margin: 0px 4% 6% 4%;
+    }
+
+    .about-text {
+        font-size: 1.1em;
+        line-height: 1.64em;
+        text-align: center;
+    }
+
+    .info-text {
+        font-size: 1.4em;
+    }
+
+    .footer-text {
+        font-size: 0.69em;
+    }
+
+    .social-1 {
+        /*width: 30px;*/
+        /*height: 30px;*/
+        font-size: 1.5em;
+    }
+
+    .social-2 {
+        /*width: 30px;*/
+        /*height: 30px;*/
+        font-size: 1.5em;
+    }
+
+    .social-3 {
+        /*width: 30px;*/
+        /*height: 30px;*/
+        font-size: 1.5em;
+    }
+
+    .header-about {
+        text-align: center;
+        /*fix*/
+        /*width: 90%;*/
+    }
+
+    .info-container {
+        margin: 0px 5% 0px 5%;
+    }
+
+    .info-card {
+        width: 100%;
+    }
+
+    .about-container {
+        margin: 5% 5% 0px 5%;
+        padding: 10px 2% 10px 0%;
+    }
+
+    #if7kw {
+        margin: 0px 4% 0px 0px;
+    }
+}
