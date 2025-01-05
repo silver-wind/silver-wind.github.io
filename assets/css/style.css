@@ -29,7 +29,7 @@ body {
     flex-basis: 100%;
 }
 
-#iof1p {
+.aboutProject {
     flex-basis: 25%;
     height: 100%;
 }
@@ -54,6 +54,14 @@ body {
     color: black;
     width: 95%;
     margin: 0px 0px 0px 0px;
+    border-radius: 30px;
+}
+
+.project-image2 {
+    color: black;
+    width: 95%;
+    margin: 0px 0px 0px 5%;
+    border-radius: 30px;
 }
 
 .project-text-col {
@@ -84,7 +92,9 @@ body {
     text-align: center;
     font-size: 1.1em;
 }
-
+.project-text-demo:hover{
+    color:#1976d2;
+}
 #ij9uhu {
     flex-basis: 25%;
     height: 100%;
@@ -99,11 +109,6 @@ body {
 }
 
 #ixlsg {
-    flex-basis: 25%;
-    height: 100%;
-}
-
-#ibsefn {
     flex-basis: 25%;
     height: 100%;
 }
@@ -187,6 +192,7 @@ body {
 }
 
 .project-text-col-2 {
+    /*width:17vw;*/
     display: block;
     flex-direction: column;
     justify-content: center;

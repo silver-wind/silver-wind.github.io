@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/fa/all.min.css">
     <link rel="stylesheet" href="assets/css/overlay.css">
+    <style>html{visibility:hidden}</style><!--defender-->
 </head>
 
 <body class="body" id="body">
-<script src="assets/js/script.js"></script>
+<script src="assets/js/blockControls.js"></script><!--block controls-->
+<noscript><style>*{display:none!important;}</style>please enable javascript</noscript><!--block controls-->
+<script src="assets/js/homepageLocker.js"></script>
+
 <div id="ic93" class="gjs-row header-container">
     <div id="ioez72" class="gjs-cell header-title">
         <a href="" style="text-decoration: none; color: black"><div id="imyr" class="header-title-text">SilverWind<br/></div></a>
@@ -22,89 +26,7 @@
         <a href="" style="text-decoration: none; color: black"><div id="i7saw" class="header-contacts">Projects</div></a>
     </div>
 </div>
-<div id="i5xyw" class="gjs-row project-container">
-    <div class="gjs-cell">
-        <div id="il35d" class="gjs-row project-row">
-            <div id="ih0jr" class="gjs-cell project-image-col">
-                <img id="i8p5j" src="assets/img/project.jpg" class="project-image"/>
-            </div>
-            <div id="iof1p" class="gjs-cell">
-                <div id="i57fk" class="gjs-row project-text-col">
-                    <div id="ijx4j" class="gjs-cell project-text-col-2">
-                        <div id="i668q" class="project-text-title">About Project<br/></div>
-                        <div id="iqyfu" class="project-text-text">ila specializes in delivering a blend of creativity
-                            and sophistication,
-                            catering to both commercial and editorial
-                        </div>
-                        <a href="" style="text-decoration: none; color: black"><div id="im0ae" class="project-text-demo">Demo Live<br/></div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="i70taa" class="gjs-row project-container left">
-    <div class="gjs-cell">
-        <div id="i2x0sk" class="gjs-row project-row reverse">
-            <div id="idpk0x" class="gjs-cell project-image-col">
-                <img src="assets/img/project.jpg" id="isabtk" class="project-image"/></div>
-            <div id="ibsefn" class="gjs-cell">
-                <div id="i17u9q" class="gjs-row project-text-col">
-                    <div id="i0j7ag" class="gjs-cell project-text-col-2">
-                        <div id="iwpcjg" class="project-text-title">About Project<br/></div>
-                        <div id="i80xrj" class="project-text-text">ila specializes in delivering a blend of creativity
-                            and sophistication,
-                            catering to both commercial and editorial
-                        </div>
-                        <a href="" style="text-decoration: none; color: black"><div id="itx623" class="project-text-demo">Demo Live<br/></div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="ieewu2" class="gjs-row project-container">
-    <div class="gjs-cell">
-        <div id="iuojp" class="gjs-row project-row">
-            <div id="ihprk" class="gjs-cell project-image-col">
-                <img src="assets/img/project.jpg" id="i6bb2" class="project-image"/>
-            </div>
-            <div id="ixlsg" class="gjs-cell">
-                <div id="iimi7" class="gjs-row project-text-col">
-                    <div id="it9ya" class="gjs-cell project-text-col-2">
-                        <div id="i8gh9" class="project-text-title">About Project<br/></div>
-                        <div id="ie5vm" class="project-text-text">ila specializes in delivering a blend of creativity
-                            and sophistication,
-                            catering to both commercial and editorial
-                        </div>
-                        <a href="" style="text-decoration: none; color: black"><div id="in81e" class="project-text-demo">Demo Live<br/></div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="ib5551" class="gjs-row project-container left">
-    <div class="gjs-cell">
-        <div id="ijjult" class="gjs-row project-row reverse">
-            <div id="ie6y2" class="gjs-cell project-image-col">
-                <img src="assets/img/project.jpg" id="i29wk" class="project-image"/>
-            </div>
-            <div id="ij9uhu" class="gjs-cell">
-                <div id="i0o5g3" class="gjs-row project-text-col">
-                    <div id="iephwq" class="gjs-cell project-text-col-2">
-                        <div id="ir43ml" class="project-text-title">About Project<br/></div>
-                        <div id="i6x21n" class="project-text-text">ila specializes in delivering a blend of creativity
-                            and sophistication,
-                            catering to both commercial and editorial
-                        </div>
-                        <a href="" style="text-decoration: none; color: black"><div id="iifju5" class="project-text-demo">Demo Live<br/></div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<div id="projectsContainer"></div>
 <div id="i5whte" class="gjs-row about-container">
     <div id="iqt459" class="gjs-cell about-col">
         <div id="iv8dcf" class="gjs-row about-decoration"></div>
@@ -121,7 +43,7 @@
     <div id="idps08" class="gjs-cell info-blank"></div>
     <div id="ipgmq1" class="gjs-cell info-row">
         <div id="i9mjj5" class="gjs-row info-card">
-            <div id="i9fh3o" class="info-text">|Nickname|Projects| <br/></div>
+            <div id="i9fh3o" class="info-text">|SilverWind|Projects| <br/></div>
             <div style="display: flex; flex-direction: row"> <!--fix-->
                 <a style="margin-right: 10px" href=""><i class="fa-brands fa-github social-1" id="i8qkxj"></i></a>
                 <a style="margin-right: 10px" href=""><i class="fa-brands fa-stack-overflow social-2" id="i6xs3k"></i></a>
@@ -133,6 +55,16 @@
 <div id="inijhx" class="gjs-row footer-container">
     <div id="itokp9" class="footer-text">© 2024 Design by SilverWind<br/></div>
 </div>
+
+<script src="assets/js/builder.js"></script>
+<script>
+    document.getElementById('projectsContainer').innerHTML += build_block_right("верстка дизайна HIHAMI по макету из figma<br> стэк: html, css", 'projects/hihami')
+    document.getElementById('projectsContainer').innerHTML += build_block_left("реализация UI на основе Rest API SamuraiJS <br> стэк: reactjs, typescript, mui, react-redux, axios, sass", 'projects/samuraijs')
+    document.getElementById('projectsContainer').innerHTML += build_block_right("адаптивная верстка по макету с использованием grid и flex <br> стэк: reactjs, html,css", 'projects/acadia')
+    document.getElementById('projectsContainer').innerHTML += build_block_left("простой калькулятор <br> стэк: html,css,js", 'projects/calc')
+</script>
+<!--<div style="position: fixed; right:10px; bottom: 5px; color: gray; font-size: 12px">примечание: все проекты являются учебные и сделаны в самообразовательных целях</div>-->
 </body>
+
 
 </html>
