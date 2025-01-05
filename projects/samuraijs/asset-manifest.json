@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projects/samuraijs/static/css/main.e3a72840.css",
-    "main.js": "/projects/samuraijs/static/js/main.614976ba.js",
+    "main.js": "/projects/samuraijs/static/js/main.dae1f93f.js",
     "static/css/649.390e6902.chunk.css": "/projects/samuraijs/static/css/649.390e6902.chunk.css",
     "static/js/649.02fd7fec.chunk.js": "/projects/samuraijs/static/js/649.02fd7fec.chunk.js",
     "static/media/sleepyCat.gif": "/projects/samuraijs/static/media/sleepyCat.92a5816fa8c310f995b3.gif",
@@ -10,12 +10,12 @@
     "static/media/devIcon.png": "/projects/samuraijs/static/media/devIcon.2a5bad4963a22f7a729e.png",
     "index.html": "/projects/samuraijs/index.html",
     "main.e3a72840.css.map": "/projects/samuraijs/static/css/main.e3a72840.css.map",
-    "main.614976ba.js.map": "/projects/samuraijs/static/js/main.614976ba.js.map",
+    "main.dae1f93f.js.map": "/projects/samuraijs/static/js/main.dae1f93f.js.map",
     "649.390e6902.chunk.css.map": "/projects/samuraijs/static/css/649.390e6902.chunk.css.map",
     "649.02fd7fec.chunk.js.map": "/projects/samuraijs/static/js/649.02fd7fec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3a72840.css",
-    "static/js/main.614976ba.js"
+    "static/js/main.dae1f93f.js"
   ]
 }
