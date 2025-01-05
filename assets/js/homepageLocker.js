@@ -1,8 +1,6 @@
-// let clickCount = 0
+// block page if github is unavailable or access is lost
 window.onload = () => {
     if (window.location.hash === '#showProjects') {
-        // console.log('show')
-        // console.log(window.location.hash)
         document.cookie = "projects=visible"
 
         if(document.cookie === 'projects=visible') runLockControls()
@@ -10,9 +8,3 @@ window.onload = () => {
         document.cookie = "projects=hidden"
     }
 }
-// const htmlElem = document.getElementsByTagName('html')[0] //universal
-// htmlElem.addEventListener('click', ()=>{
-//     // clickCount++;
-//     // if (clickCount === 10) {
-//
-// })
