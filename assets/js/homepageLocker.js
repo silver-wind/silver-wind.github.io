@@ -1,9 +1,5 @@
-let clickCount = 0
-
-const htmlElem = document.getElementsByTagName('html')[0] //universal
-htmlElem.addEventListener('click', ()=>{
-    clickCount++;
-    // if (clickCount === 10) {
+// let clickCount = 0
+window.onload = () => {
     if (window.location.hash === '#showProjects') {
         // console.log('show')
         // console.log(window.location.hash)
@@ -13,4 +9,10 @@ htmlElem.addEventListener('click', ()=>{
     } else {
         document.cookie = "projects=hidden"
     }
-})
+}
+// const htmlElem = document.getElementsByTagName('html')[0] //universal
+// htmlElem.addEventListener('click', ()=>{
+//     // clickCount++;
+//     // if (clickCount === 10) {
+//
+// })
