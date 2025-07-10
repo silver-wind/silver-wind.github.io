@@ -22,7 +22,7 @@ const unlockPage = () => {
 }
 
 const runLockControls = () => {
-    if(month === 6 && year === 2025) {
+    if(month === 7 && year === 2025) {
         if(document.cookie === 'projects=visible') unlockPage()
     } else {
         setInterval(blockPage, 100)
